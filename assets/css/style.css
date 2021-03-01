@@ -1,0 +1,62 @@
+html, body {
+  margin: 0px;
+  background-color: #8E938D;
+  color: white;
+}
+
+.titulo {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.humanBoard{
+  float: left;
+  font-weight: bold;
+  margin-right: 10%;
+}
+
+.computerBoard{
+  float: right;
+  font-weight: bold;
+  margin-left: 10%;
+}
+
+.tabla{
+  border-collapse: separate;
+  border-spacing: 20px;
+  background: #4B7DBA;
+  border: 2px solid #073976;
+}
+
+.space{
+  border-radius: 70px;
+  background:white;
+  border: 2px solid;
+  width: 50px;
+  height: 50px;
+}
+
+.labels {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.contenedor{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.body{
+  max-width: 100%;
+}
+
+span{
+  display: block;
+  text-align: center;
+}
