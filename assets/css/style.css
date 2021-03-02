@@ -24,6 +24,14 @@ html, body {
   margin-left: 10%;
 }
 
+.btnNuevo{
+  margin-right: 2.5px;
+}
+
+.btnReiniciar{
+  margin-left: 2.5px;
+}
+
 .tabla{
   border-collapse: separate;
   border-spacing: 20px;
@@ -50,13 +58,4 @@ html, body {
   display: flex;
   justify-content: center;
   width: 100%;
-}
-
-.body{
-  max-width: 100%;
-}
-
-span{
-  display: block;
-  text-align: center;
 }
